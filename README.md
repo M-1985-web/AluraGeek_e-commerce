@@ -17,8 +17,10 @@ Es muy importante que el sitio sea adaptable para que los clientes puedan compra
 -----
 ## 🔒 Login
 Las credenciales para loguearse en la administración son:
-email: test@alura.com
-password: alura123
+- email: test@alura.com
+- password: alura123
+
+
 -----
 ## 👾 Link a website
 https://m-1985-web.github.io/AluraGeek_e-commerce/
