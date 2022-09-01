@@ -1,6 +1,8 @@
 //heroku
 
-//   /products
+
+
+
 const createProduct = async (jsonProduct) => {
     try {
         const response = await fetch(`https://git.heroku.com/aluralatamecommerce.git/products`, {
@@ -17,26 +19,25 @@ const createProduct = async (jsonProduct) => {
 }
 
 
-//  
+
 const readProducts = () => fetch('https://git.heroku.com/aluralatamecommerce.git/products').then
     (response => response.json());
 
 
 
-// 
 const readProduct = (id) => fetch(`https://git.heroku.com/aluralatamecommerce.git/products/${id}`).
     then(response => response.json());
 
 
-// /products
+
 const deleteProduct = (id) => {
     return fetch(`https://git.heroku.com/aluralatamecommerce.git/products/${id}`, {
-        method: 'DELETE'
+        method:'DELETE'
     });
 };
 
 
-// products/
+
 const updateProduct = (id, jsonProduct) => {
     return fetch(`https://git.heroku.com/aluralatamecommerce.git/products/${id}`, {
         method: 'PUT',

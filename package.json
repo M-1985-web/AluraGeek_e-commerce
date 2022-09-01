@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "alura_oracle",
   "version": "1.0.0",
   "description": "E-commerce desarrollado con HTML5, CCS3 y JS",
-=======
-  "name": "aluraoracle",
-  "version": "1.0.0",
-  "description": "E-commerce",
->>>>>>> 6c11470d96827b9e6990ea64a642fce8404b5c39
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
